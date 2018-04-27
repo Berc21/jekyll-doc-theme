@@ -1,0 +1,19 @@
+<header class="main-header">
+
+        <div class="logo">
+                <a href=" {{ '/' | relative_url }}" style="color: inherit;">Front-end Job Interview Questions</a> 
+        </div>
+        <nav class="menu">
+            <button class="hamburger">
+                <img  src="{{ '/assets/hamburger_icon.svg.png' | relative_url }}">
+            </button>
+            <button class="mb-hamburger">
+                    <img  src="{{ '/assets/hamburger_icon.svg.png' | relative_url }}">
+              </button>
+              <ul class="mb-content-list">
+                    {% for question in site.data.question %}
+                   <li> <a href="{{ question.link || relative_url }}">{{ question.title }}</a></li>
+                {% endfor %}
+                </ul>
+        </nav>
+    </header>
