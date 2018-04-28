@@ -1,7 +1,7 @@
 {
   "name": "Technical Documentation",
   "short_name": "Doc",
-  "theme_color": "#2196f3",
+  "theme_color": "#db5945",
   "background_color": "#2196f3",
   "display": "minimal-ui",
   "description": "A simple technical documentation theme.",
