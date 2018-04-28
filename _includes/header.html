@@ -1,13 +1,16 @@
 <header class="main-header">
 
         <div class="logo">
-                <a href=" {{ '/' | relative_url }}" style="color: inherit;">Front-end Job Interview Questions</a> 
+                <a href=" {{ '/' | relative_url }}" style="color: inherit;" title="Go to homepage" >Front-end Job Interview Questions</a> 
         </div>
-        <nav class="menu">
-            <button class="hamburger">
-                <img  src="{{ '/assets/hamburger_icon.svg.png' | relative_url }}">
+
+     
+          
+        <nav class="menu" role="navigation" > 
+            <button class="hamburger" aria-label="contents list Button" >
+                <strong>Contents </strong> 
             </button>
-            <button class="mb-hamburger">
+            <button class="mb-hamburger" >
                     <img  src="{{ '/assets/hamburger_icon.svg.png' | relative_url }}">
               </button>
               <ul class="mb-content-list">
